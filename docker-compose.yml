@@ -5,17 +5,13 @@ services:
     build: .
     volumes:
       - .:/app
-      - .env:/app/.env
+    env_file:
+      - .env
     ports:
       - "8000:8000"
-    environment:
-      - PYTHONPATH=/app
-      - PYTHONUNBUFFERED=1
-      # Uncomment and set these in your .env file as needed
-      # - OPENAI_API_KEY=${OPENAI_API_KEY}
-      # - WANDB_API_KEY=${WANDB_API_KEY}
-      # - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-    # Uncomment for GPU support
+    depends_on:
+      - db
+    # Uncomment for Nvidia GPU support
     # deploy:
     #   resources:
     #     reservations:
@@ -23,11 +19,9 @@ services:
     #         - driver: nvidia
     #           count: all
     #           capabilities: [gpu]
-    command: python3
 
-  # Database
-  postgres:
-    image: postgres:15-alpine
+  db:
+    image: postgres
     environment:
       - POSTGRES_USER=hackathon
       - POSTGRES_PASSWORD=hackathon
@@ -36,6 +30,8 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - .env
 
   # Uncomment if you need vector database
   # chroma:
@@ -47,4 +43,4 @@ services:
 
 volumes:
   postgres_data:
-  chroma_data:
+  # chroma_data:
