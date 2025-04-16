@@ -56,7 +56,7 @@ dependencies = [
     # Vector Storage & Embeddings
     "chromadb>=0.4.24",
     "sentence-transformers>=2.4.0",  # for generating embeddings
-
+    "pgcli>=4.3.0",
 ]
 
 [dependency-groups]
