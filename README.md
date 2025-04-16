@@ -3,6 +3,7 @@ A Python toolkit to boost your hackathon productivity by providing ready-to-use 
 
 ## Setup
 
+### Option 1: Local Setup with UV
 1. Install UV package manager:
 ```bash
 pip install uv
@@ -18,6 +19,31 @@ source .venv/bin/activate
 ```bash
 pre-commit install
 ```
+
+### Option 2: Docker Setup
+1. Build and run with Docker Compose:
+```bash
+docker compose up
+```
+
+Available services:
+- Python environment with all dependencies
+- PostgreSQL database (credentials: hackathon/hackathon)
+- ChromaDB for vector storage (optional - uncomment in docker-compose.yml)
+- GPU support (optional - uncomment NVIDIA configuration in docker-compose.yml)
+
+Common Docker commands:
+- Run Python interpreter: `docker compose up`
+- Run specific script: `docker compose run app python your_script.py`
+- Run FastAPI server: `docker compose run app uvicorn main:app --host 0.0.0.0 --port 8000 --reload`
+- Access PostgreSQL: `docker compose exec postgres psql -U hackathon -d hackathon`
+
+Database connection details:
+- Host: localhost
+- Port: 5432
+- Database: hackathon
+- Username: hackathon
+- Password: hackathon
 
 ## Customizing Dependencies
 Dependencies are organized by category in `pyproject.toml` (Core AI/ML, NLP, Computer Vision, etc.). Comment out any packages you don't need for your project.
