@@ -52,6 +52,7 @@ dependencies = [
     "loguru>=0.7.3",
     "tqdm>=4.66.0",
     "python-dotenv>=1.0.0",
+    "notebook>=6.5.4",       # for Jupyter Notebook support
 
     # Vector Storage & Embeddings
     "chromadb>=0.4.24",
