@@ -18,7 +18,7 @@ dependencies = [
     "scikit-learn>=1.3.2",
 
     # Tracking and Experimentation
-    "wandb",        # for logging and tracking experiments
+    "wandb",               # for logging and tracking experiments
     "optuna>=3.4.0",       # for hyperparameter optimization
     "langfuse>=2.59.7",    # tracking api calls and logs
 
@@ -44,7 +44,7 @@ dependencies = [
     "pillow>=10.2.0",
 
     # API Development
-    "fastapi>=0.110.0",
+    "fastapi[standard]>=0.110.0",
     "uvicorn>=0.27.1",
 
     # Utils
@@ -54,10 +54,11 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "notebook>=6.5.4",       # for Jupyter Notebook support
 
-    # Vector Storage & Embeddings
+    # Databases including Vector Storage & Embeddings
     "chromadb>=0.4.24",
     "sentence-transformers>=2.4.0",  # for generating embeddings
     "pgcli>=4.3.0",
+    "sqlmodel>=0.0.24",
 ]
 
 [dependency-groups]
