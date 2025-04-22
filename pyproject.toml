@@ -53,6 +53,8 @@ dependencies = [
     "tqdm>=4.66.0",
     "python-dotenv>=1.0.0",
     "notebook>=6.5.4",       # for Jupyter Notebook support
+    "passlib[bcrypt]<2.0.0,>=1.7.4",
+    "bcrypt==4.0.1",  # pin bcrypt until passlib supports the latest
 
     # Databases including Vector Storage & Embeddings
     "chromadb>=0.4.24",
