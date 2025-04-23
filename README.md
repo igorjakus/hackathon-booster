@@ -82,5 +82,10 @@ The project uses pre-commit hooks to maintain code quality:
 
 These hooks run automatically when you commit changes to ensure consistent code quality.
 
+## Other Resources
+[Database diagrams](https://dbdiagram.io/)
+[Full-Stack FastAPI Template](https://github.com/fastapi/full-stack-fastapi-template)
+[Hackathon-Starter](https://github.com/Kabanosk/hackathon-starter/) - this repo is heavily inspired by this:)
+
 ## License
 See the LICENSE file for details.
