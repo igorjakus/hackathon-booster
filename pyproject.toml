@@ -61,6 +61,8 @@ dependencies = [
     "sentence-transformers>=2.4.0",  # for generating embeddings
     "pgcli>=4.3.0",
     "sqlmodel>=0.0.24",
+    "sqlalchemy",
+    "psycopg"
 ]
 
 [dependency-groups]
