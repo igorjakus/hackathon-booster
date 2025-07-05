@@ -25,6 +25,3 @@ build/
 
 # vscode shit files
 .vscode
-
-# idk maybe it shouldn't be in .gitignore???
-uv.lock

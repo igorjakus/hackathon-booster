@@ -70,7 +70,7 @@ Database connection details:
 - Password: hackathon
 
 ## Customizing Dependencies
-Dependencies are organized by category in `pyproject.toml` (Core AI/ML, NLP, Computer Vision, etc.). Comment out any packages you don't need for your project.
+Dependencies are organized by category in `pyproject.toml` (Core AI/ML, NLP, Computer Vision, etc.). Uncomment every package you need for your project.
 
 ## Usage Examples
 Check out the `examples/` directory for sample code and usage examples of different components.
