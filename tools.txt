@@ -1,0 +1,108 @@
+# Hackathon Development Tools
+
+## Quick Development & Prototyping
+- https://bolt.new/ - AI-powered full-stack development
+- https://v0.dev/ - Generate UI components with AI
+- https://replit.com/ - Online IDE with instant deployment
+- https://codesandbox.io/ - Online code editor for web apps
+- https://stackblitz.com/ - Instant dev environments
+
+## Frontend Frameworks & Tools
+- https://nextjs.org/ - React framework with SSR
+- https://ui.shadcn.com/ - Beautiful UI components
+- https://tailwindcss.com/ - Utility-first CSS framework
+- https://daisyui.com/ - Tailwind CSS components
+- https://chakra-ui.com/ - Modular React component library
+- https://mantine.dev/ - Full-featured React components
+- https://uiplaybook.dev/ - UI design patterns
+
+## Backend & APIs
+- https://fastapi.tiangolo.com/ - Modern Python API framework
+- https://supabase.com/ - Open source Firebase alternative
+- https://firebase.google.com/ - Google's app development platform
+- https://railway.app/ - Deploy apps with zero config
+- https://render.com/ - Cloud platform for developers
+- https://vercel.com/ - Frontend deployment platform
+- https://planetscale.com/ - Serverless MySQL platform
+- https://neon.tech/ - Serverless Postgres
+
+## Mobile Development
+- https://expo.dev/ - React Native platform
+- https://flutter.dev/ - Google's UI toolkit
+- https://capacitorjs.com/ - Cross-platform native runtime
+- https://ionic.io/ - Cross-platform mobile toolkit
+
+## AI & ML Integration
+- https://openai.com/api/ - GPT models API
+- https://www.anthropic.com/ - Claude AI API
+- https://huggingface.co/ - ML models and datasets
+- https://replicate.com/ - Run ML models via API
+- https://together.ai/ - Open source AI models
+- https://langchain.com/ - LLM application framework
+
+## Database & Storage
+- https://airtable.com/ - No-code database
+- https://notion.so/ - All-in-one workspace with API
+- https://mongodb.com/atlas - Cloud MongoDB
+- https://redis.com/ - In-memory data store
+- https://upstash.com/ - Serverless Redis and Kafka
+
+## Authentication & User Management
+- https://clerk.com/ - Complete user management
+- https://auth0.com/ - Identity platform
+- https://firebase.google.com/products/auth - Firebase Auth
+- https://supabase.com/auth - Supabase Auth
+
+## Payment Processing
+- https://stripe.com/ - Online payment processing
+- https://paypal.com/developer/ - PayPal APIs
+- https://lemonsqueezy.com/ - Merchant of record platform
+
+## Real-time Features
+- https://pusher.com/ - Real-time messaging APIs
+- https://socket.io/ - Real-time bidirectional communication
+- https://ably.com/ - Real-time messaging platform
+- https://supabase.com/realtime - Real-time subscriptions
+
+## Development Tools
+- https://www.warp.dev/ - Modern terminal
+- https://playwright.dev/ - End-to-end testing
+- https://www.postman.com/ - API development platform
+- https://insomnia.rest/ - API client
+- https://ngrok.com/ - Secure tunnels to localhost
+- https://github.com/features/codespaces - Cloud development environments
+
+## Design & Assets
+- https://figma.com/ - Design and prototyping
+- https://unsplash.com/ - Free high-quality photos
+- https://heroicons.com/ - Beautiful SVG icons
+- https://lucide.dev/ - Beautiful & consistent icons
+- https://undraw.co/ - Open source illustrations
+- https://storyset.com/ - Customizable illustrations
+
+## Deployment & Hosting
+- https://vercel.com/ - Frontend deployment
+- https://netlify.com/ - Web development platform
+- https://railway.app/ - Infrastructure platform
+- https://fly.io/ - Deploy apps globally
+- https://render.com/ - Cloud platform
+- https://heroku.com/ - Cloud application platform
+
+## Monitoring & Analytics
+- https://sentry.io/ - Error tracking
+- https://posthog.com/ - Product analytics
+- https://mixpanel.com/ - Event analytics
+- https://amplitude.com/ - Digital analytics
+
+## Communication & Collaboration
+- https://discord.com/developers - Discord bots and integrations
+- https://slack.com/api - Slack apps and bots
+- https://twilio.com/ - SMS, voice, and video APIs
+- https://sendgrid.com/ - Email delivery service
+
+## Quick Start Templates
+- https://create-react-app.dev/ - React starter
+- https://create.t3.gg/ - Full-stack TypeScript
+- https://github.com/tiangolo/full-stack-fastapi-postgresql - FastAPI + PostgreSQL
+- https://github.com/vercel/next.js/tree/canary/examples - Next.js examples
+- https://github.com/supabase/supabase/tree/master/examples - Supabase examples
