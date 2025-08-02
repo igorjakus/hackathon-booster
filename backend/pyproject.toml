@@ -45,11 +45,11 @@ dependencies = [
     # "pillow>=10.2.0",
 
     # API Development
-    # "fastapi[standard]>=0.110.0",
-    # "uvicorn>=0.27.1",
+    "fastapi[standard]>=0.110.0",
+    "uvicorn>=0.27.1",
 
     # Utils
-    # "pydantic>=1.10.12",
+    "pydantic>=1.10.12",
     # "loguru>=0.7.3",
     # "tqdm>=4.66.0",
     # "python-dotenv>=1.0.0",
