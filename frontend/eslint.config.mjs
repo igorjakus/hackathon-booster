@@ -10,7 +10,7 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+  ...compat.extends('next', 'next/core-web-vitals', 'next/typescript', 'prettier'),
   {
     rules: {
       // React/JSX
@@ -18,13 +18,13 @@ const eslintConfig = [
 
       // TypeScript
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-      // '@typescript-eslint/no-explicit-any': 'warn',
+      // '@typescript-eslint/no-explicit-any': 'warn',    // production
 
       // General
       'prefer-const': 'error',
       'no-var': 'error',
       eqeqeq: ['error', 'always'],
-      // 'no-console': ['warn', { allow: ['warn', 'error'] }],
+      // 'no-console': ['warn', { allow: ['warn', 'error'] }],   // producton
       'no-duplicate-imports': 'error',
     },
   },
