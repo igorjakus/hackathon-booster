@@ -22,6 +22,3 @@ build/
 
 # macos shit files
 .DS_Store
-
-# vscode shit files
-.vscode
